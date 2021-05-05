@@ -1,6 +1,6 @@
 {
   "name": "heap-snapshot-sanitizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stream transform implementation to sanitize heap snapshot.",
   "main": "lib/index.js",
   "directories": {
