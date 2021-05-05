@@ -11,7 +11,7 @@ Obfuscating strings in the heap-snapshot tries to remediate this.
 ## sample usage
 ```javascript
   ...
-  const Sanitizer = require('heap-sanpshot-santizer);
+  const Sanitizer = require('heap-sanpshot-santizer');
   ...
 
   const session = new inspector.Session();
@@ -23,7 +23,7 @@ Obfuscating strings in the heap-snapshot tries to remediate this.
   sanitizer.pipe(fstrm);
   fstrm.on('error', (e) => {
     // console.error(e);
-  });)
+  });
   sanitizer.on('error', (e) => {
     // console.error(e);
   });
